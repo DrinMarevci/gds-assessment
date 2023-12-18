@@ -699,3 +699,149 @@ footer {
   font-size: 18px;
   font-weight: 500;
 }
+
+@media screen and (max-width: 768px) {
+  /* Header */
+  .nav-links-container,
+  .nav-link {
+    visibility: hidden;
+  }
+
+  nav {
+    max-width: 100vw;
+    overflow: hidden;
+  }
+
+  /* Home Section */
+  #home {
+    padding: 4rem 2rem;
+  }
+
+  .home-section-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .home-left-container {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+
+  .home-right-container {
+    width: 100%;
+  }
+
+  /* Services Section */
+
+  .services-section-container {
+    gap: 2rem;
+  }
+
+  .services-icons-container {
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .services-div {
+    text-align: center;
+  }
+
+  /* About Section */
+  .about-bigger-blocks-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-smaller-blocks-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about-empty-block {
+    visibility: hidden;
+  }
+
+  .about-ourmission-block {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-inner-ourmission {
+    padding: 2rem;
+    text-align: center;
+  }
+
+  .about-headline {
+    font-size: 28px;
+  }
+
+  .about-paragraph {
+    font-size: 16px;
+  }
+
+  .about-smaller-blocks {
+    padding: 3rem;
+    text-align: center;
+  }
+
+  .about-smaller-blocks-title {
+    font-size: 20px;
+  }
+
+  .about-smaller-blocks-p {
+    font-size: 14px;
+  }
+
+  .abtus-icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 3rem;
+  }
+
+  /* Our Main Section */
+
+  .our-main-container {
+    height: 150vh;
+  }
+  .our-main-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cards-container {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .reviews-container {
+    flex-direction: column;
+  }
+  .pricing-card-container {
+    flex-direction: column;
+  }
+
+  .contact-section-container {
+    flex-direction: column;
+  }
+
+  .contact-info {
+    width: 80%;
+  }
+
+  .upper-footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-links-container {
+    align-items: center;
+  }
+  .review-card {
+    padding: 8rem 0;
+  }
+}

@@ -282,7 +282,8 @@
                     </svg>
                     <span class="about-smaller-blocks-title" style="color: white">Web Design</span>
                   </div>
-                  <p style="color: white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime dicta
+                  <p style="color: white; letter-spacing: 1px;">Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Maxime dicta
                     temporibus vitae debitis
                     eaque cum nihil! </p>
                 </div>
